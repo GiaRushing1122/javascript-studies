@@ -67,6 +67,8 @@ let bool2 = false;
 
 let firstName = "Gia";
 
+let lastName = "Rushing";
+
 let msg = "Hello, how are you?";
 
 let animal = "Parrot";
@@ -74,3 +76,11 @@ let animal = "Parrot";
 let good = 'this is right';
 
 let quotes = 'She said, "lol"';
+
+let fullName = firstName + " " + lastName;
+
+/* IMPORTANT TO KNOW -
+Strings are indexed, every character in a a string is assigned a corresponding number based off its position in string. (starting from 0 left to right) */
+
+// each string has a length property
+
