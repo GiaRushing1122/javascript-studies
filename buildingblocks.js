@@ -17,3 +17,60 @@ var divide = 400/45;
 var modulo = 27%2;
 
 
+// VARIABLES
+
+/* Variables are like "jar labels in Javascript"
+We can store a value to use it recall it and change it later */
+
+var age = 26;
+
+// let
+let myName = "Gia";
+
+let students = 20
+let teachers = 2
+// new student joins school
+students = students + 1;
+
+let totalSchool = students + teachers; 
+
+//const
+/* Values initialized with the const varible cannot be change */
+
+const daysInWeek = 7;
+
+//var
+
+/*Before let and const there was var */
+
+// Unary Operators
+/*An operator that takes a single operand/argument and performs an operation */
+
+    //  Practice
+
+// Return the Sum of Two Numbers
+// create a function that take two numbers as argument and returns sum
+
+function addition (num1,num2){
+return num1 + num2;
+}
+
+// BOOLEAN
+
+/*true or false values*/
+
+let bool1 = true;
+let bool2 = false;
+
+// STRING
+/* Strings are pieces of text or strings of characters */
+
+let firstName = "Gia";
+
+let msg = "Hello, how are you?";
+
+let animal = "Parrot";
+
+let good = 'this is right';
+
+let quotes = 'She said, "lol"';
