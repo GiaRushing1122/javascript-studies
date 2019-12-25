@@ -82,5 +82,38 @@ let fullName = firstName + " " + lastName;
 /* IMPORTANT TO KNOW -
 Strings are indexed, every character in a a string is assigned a corresponding number based off its position in string. (starting from 0 left to right) */
 
-// each string has a length property
+// every string has a length property
+
+quotes.length // 15
+
+//Is the String Empty?
+
+/*Create a function that returns true if a string is empty and false otherwise.
+
+isEmpty("") ➞ true
+
+isEmpty(" ") ➞ false
+
+isEmpty("a") ➞ false
+
+*/
+
+let myGenre = "Lo Fi";
+
+myGenre.length; //5
+
+myGenre[5]; //undefined
+
+myGenre[myGenre.length-1]; // i
+
+
+/*QUESTION? : Are string immutable?
+ANSWER: Yes.*/
+
+let msg = "Hello there!"
+
+
+
+
+
 
