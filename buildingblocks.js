@@ -110,7 +110,6 @@ myGenre[myGenre.length-1]; // i
 /*QUESTION? : Are string immutable?
 ANSWER: Yes.*/
 
-let msg = "Hello there!"
 
 
 
